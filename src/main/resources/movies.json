@@ -1,0 +1,74 @@
+[ {
+  "nameFilm" : "The Shawshank Redemption",
+  "premieraYear" : 1994,
+  "director" : {
+    "name" : "Frank",
+    "surname" : "Darabont"
+  },
+  "genre" : "Drama",
+  "actors" : [ {
+    "name" : "Morgan",
+    "surname" : "Freeman"
+  }, {
+    "name" : "Tim",
+    "surname" : "Robbins"
+  }, {
+    "name" : "Bob",
+    "surname" : "Gunton"
+  } ]
+}, {
+  "nameFilm" : "Green book",
+  "premieraYear" : 2018,
+  "director" : {
+    "name" : "Peter",
+    "surname" : "Farrelly"
+  },
+  "genre" : "Comedy",
+  "actors" : [ {
+    "name" : "Viggo",
+    "surname" : "Mortensen"
+  }, {
+    "name" : "Mahershala",
+    "surname" : "Ali"
+  }, {
+    "name" : "Linda",
+    "surname" : "Cardellini"
+  }, {
+    "name" : "Sebastian",
+    "surname" : "Maniscalco"
+  } ]
+}, {
+  "nameFilm" : "Lord of the rings",
+  "premieraYear" : 2004,
+  "director" : {
+    "name" : "Peter",
+    "surname" : "Jackson"
+  },
+  "genre" : "Fantasy",
+  "actors" : [ {
+    "name" : "Elijah",
+    "surname" : "Wood"
+  }, {
+    "name" : "Viggo",
+    "surname" : "Mortensen"
+  }, {
+    "name" : "Ian",
+    "surname" : "McKellen"
+  } ]
+}, {
+  "nameFilm" : "Nelson Mandela",
+  "premieraYear" : 2009,
+  "director" : {
+    "name" : "Clint",
+    "surname" : "Eastwood"
+  },
+  "genre" : "Biography",
+  "actors" : [ {
+    "name" : "Morgan",
+    "surname" : "Freeman"
+  }, {
+    "name" : "Matt",
+    "surname" : "Damon"
+  } ]
+} ]
+
