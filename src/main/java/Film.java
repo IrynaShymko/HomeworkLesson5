@@ -1,5 +1,3 @@
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.List;
 
 public class Film {
@@ -12,9 +10,11 @@ public class Film {
     public String getNameFilm() {
         return nameFilm;
     }
+
     public void setNameFilm(String nameFilm) {
         this.nameFilm = nameFilm;
     }
+
     public int getPremieraYear() {
         return premieraYear;
     }
@@ -46,30 +46,23 @@ public class Film {
     public void setActors(List<Actor> actors) {
         this.actors = actors;
     }
-    public static Film[] parseJson2(String value) throws JsonProcessingException {
-        ObjectMapper mapper= new ObjectMapper();
-        Film [] result = mapper.readValue(value, Film[].class);
-        return result;
-    }
 
-    public String toStringActors(){
+    public String toStringActors() {
         StringBuilder stringBuilder = new StringBuilder();
-        for (Actor actor:actors) {
+        for (Actor actor : actors) {
             stringBuilder.append(actor.toString());
             stringBuilder.append(", ");
-            }
+        }
         stringBuilder.deleteCharAt(stringBuilder.length() - 2);
-        String actorsOfFilm = stringBuilder.toString();
-        return actorsOfFilm;
+        return stringBuilder.toString();
     }
 
     @Override
     public String toString() {
-        return  "title: " + nameFilm +
+        return "title: " + nameFilm +
                 " \ndirector: " + director +
-                " \ngenre: " + genre  +
+                " \ngenre: " + genre +
                 " \ndate: " + premieraYear +
                 " \nactors: " + toStringActors();
     }
 }
-
