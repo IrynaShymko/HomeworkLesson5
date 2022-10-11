@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class HumanExample {
-    @JsonProperty("CIK")
+
     private String cik;
 
     @JsonProperty("MET")
