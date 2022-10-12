@@ -1,10 +1,10 @@
-import CsvConvertingToJson.CsvConverter;
+import CsvConvertingToJson.LabFileDTO;
 
 import java.io.IOException;
 
 public class Run {
     public static void main(String[] args) throws IOException {
-        CsvConverter.convertCsvToJson("src/main/resources/human.csv");
+        LabFileDTO.convertCsvToJson("src/main/resources/labExample.csv");
     }
 
 
